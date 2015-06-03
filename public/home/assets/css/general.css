@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{padding:0; margin:0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+body{ background:#222; color:#000; font-size:0.75em;}
+h1{ margin:0; padding:0; font-size:4em; font-family: Arial, Helvetica, sans-serif;}
+
+#gen_container{ width:1000px; margin:auto; }
+  #header{background:#CCC; padding:10px;}
+  #sidebar_left{width:200px; float:left; background:#999; padding:10px;}
+     /*Sidebar navigation*/
+     ul.navigation{ list-style:none; padding:0; margin:0;}
+	 ul#navigation li:first-child{ 
+			padding:5px 20px; background:#111; color:#E7E7E7;
+			border-top-right-radius:10px; -moz-border-top-right-radius:10px; -webkit-border-top-right-radius:10px;
+			border-top-left-radius:10px; -moz-border-top-left-radius:10px; -webkit-border-top-left-radius:10px;
+	 }
+	 ul.navigation li:first-child, ul.navigation li:first-child a{ 
+			border-top-right-radius:5px; -moz-border-top-right-radius:5px; -webkit-border-top-right-radius:5px;
+			border-top-left-radius:5px; -moz-border-top-left-radius:5px; -webkit-border-top-left-radius:5px;
+	 }
+	 ul.navigation li{ list-style:none; border-bottom:1px solid #999;}
+	   ul.navigation li a {
+			display: block; padding:5px 20px; background:#666; color:#E7E7E7; text-decoration:none;
+			transition:padding-left .5s;	-moz-transition:padding-left .5s; -ms-transition:padding-left .5s;
+			-webkit-transition:padding-left .5s; -o-transition:padding-left .5s;
+	   }
+	   ul.navigation li a:hover { background:#111; z-index:999; padding-left:30px;}
+			
+
+  #main_content{margin-left:220px; background:#666; padding:10px;}
+  #footer{clear:both; background:#66F; padding:10px;}
+  
+  .align_txt_r{text-align:right;}
+  .clear_both{ clear:both;}
+  .myTables{}
